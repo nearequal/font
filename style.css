@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Zapid';
+  src: url('Zapid.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ページ全体に適用したい場合 */
+body {
+  font-family: 'Zapid', sans-serif;
+}
+
+/* 入力エリア用 */
+.typing-area {
+  font-family: 'Zapid', sans-serif;
+  font-size: 90px;
+  width: 100%;
+  min-height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
